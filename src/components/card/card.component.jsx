@@ -3,7 +3,6 @@ import React from 'react';
 import './card.style.css';
 
 export const Card = (props) => {
-    console.log(props)
     return (
         <div className='card'>
             <img alt="user" src={props.user.image}/>
