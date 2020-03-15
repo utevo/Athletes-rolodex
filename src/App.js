@@ -14,10 +14,9 @@ class App extends Component {
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
-      .then(users => users.map(user => {
-          user.image = `https://robohash.org/${user.id}/?set=set4`;
-          return user;
-      }))
+      .then(users => users.map(
+        user => Object.assign(user, {image: `https://robohash.org/${user.id}/?set=set4`})
+      ))
       .then(users => this.setState({users}))
   }
 
