@@ -1,9 +1,9 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: #33CC77;
+    background-color: whitesmoke;
     border: 10px solid grey;
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 25px;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
