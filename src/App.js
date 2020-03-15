@@ -16,9 +16,9 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(users => users.map(
-        user => Object.assign(user, {image: `https://robohash.org/${user.id}/?set=set4`})
+        user => Object.assign(user, { image: `https://robohash.org/${user.id}/?set=set4` })
       ))
-      .then(users => this.setState({users}))
+      .then(users => this.setState({ users }))
   }
 
   render() {
@@ -28,7 +28,8 @@ class App extends Component {
           type='search'
           placeholder='Search User'
           onChange={e => {
-            this.setState({searchField: e.target.value})}}
+            this.setState({ searchField: e.target.value })
+          }}
         />
         <CardList users={this.state.users} />
       </div>
