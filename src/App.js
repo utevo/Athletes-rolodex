@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      users: []
+      users: [],
+      searchField: ''
     }
   }
 
@@ -23,6 +24,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <input
+          type='search'
+          placeholder='Search User'
+          onChange={e => {
+            this.setState({searchField: e.target.value})}}
+        />
         <CardList users={this.state.users} />
       </div>
     );
