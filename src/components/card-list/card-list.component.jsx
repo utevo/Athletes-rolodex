@@ -5,13 +5,13 @@ import { Card } from '../card/card.component';
 import './card-list.style.css'
 
 export const CardList = (props) => {
-    return (
-        <div className='card-list'>
-            {
-                props.users.map(user => (
-                    <Card key={user.id} user={user}/>
-                ))
-            }
-        </div>
-    )
+  return (
+    <div className='card-list'>
+      {
+        props.users.map(user => (
+          <Card key={user.id} user={user} />
+        ))
+      }
+    </div>
+  )
 }
