@@ -1,2 +1,2 @@
-# Athletes-rolodex
-📇 Rolodex with the greatest athletes!
+# Rolodex
+📇 Rolodex as Single Page Application written in React.
