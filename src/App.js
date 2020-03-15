@@ -21,12 +21,12 @@ class App extends Component {
     return (
       <div className="App">
         <CardList xd="2">
-          <h1>Children of CardList</h1>
-        </CardList>
           {
             this.state.users.map(user => (
-            <h1 key={user.id}> {user.name} </h1>
-          ))}
+              <h1 key={user.id}> {user.name} </h1>
+            ))
+          }
+        </CardList>
       </div>
     );
   }
