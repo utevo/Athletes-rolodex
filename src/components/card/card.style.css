@@ -21,9 +21,9 @@
 }
 
 .card p {
-    color: gray;
+    color: rgb(156, 154, 154);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-shadow: none;
 }
 

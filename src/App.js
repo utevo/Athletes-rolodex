@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
         <h1> ROLODEX </h1>
         <SearchBox
-          placeHolder='search user' 
+          placeHolder='search users' 
           onChange={this.handleChange}
         />
         <CardList users={filteredUsers} />
