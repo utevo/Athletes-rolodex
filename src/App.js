@@ -34,6 +34,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <h1> Roledex </h1>
         <SearchBox
           placeHolder='Search User' 
           onChange={this.handleChange}
