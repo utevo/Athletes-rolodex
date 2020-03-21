@@ -1,0 +1,8 @@
+.search-box {
+    border: 4mm ridge #fb7705;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
